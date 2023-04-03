@@ -1,2 +1,1 @@
-# newsletter-tods
-Project Work
+Project Work | Team Sviluppo - Garatti Marchetta Pedrinelli Volpe
