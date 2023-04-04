@@ -138,7 +138,7 @@ export const TemplateFay = ({
                                 <Column className="p-2">
                                     <Button
                                         href="https://example.com"
-                                        className="bg-[#162540] text-white px-16 py-3 text-base float-right"
+                                        className="bg-[#162540] text-white px-16 py-3 text-base "
                                     >
                                         REGALI PER LEI
                                     </Button>
@@ -171,37 +171,37 @@ export const TemplateFay = ({
 
                         <Hr className="bg-[#162540] border-[#162540]  h-px mb-[25px]" />
 
-                        <Row className="text-center">
-                            <Column>
+                        <Row className="text-center align-middle">
+                            <Column className="align-top w-1/3">
                                 <Link target="_blank" href="https://www.fay.com/it-it/customer-care/orders-and-shipping/?utm_source=newsletter&utm_medium=email&utm_campaign=%3C%=%20message.delivery.operation.label%20%%3E&utm_content=OP-%3C%=%20message.delivery.operation.internalName%20%%3E%3CRI-%3C%=%20recipient.country_recipient.isoCode%20%%3E%3CDC-%3C%=%20message.delivery.deliveryCode%20%%3E%3CDG-%3C%=%20recipient.gender%20%%3E%3CCC-%3C%=%20message.delivery.operation.campaignCalendario%20%%3E%3CCN-%3C%=%20message.delivery.operation.campaignNature%20%%3E%3Ccontent-Spedizioni&userId=%3C%=recipient.crmId%%3E">
                                     <Img src="https://images.todsgroup.com/FayTemplate/icons-footer/Free-shipping.png" alt="Fay" width="51" height="40" className="mx-auto" />
-                                </Link>
-                                <Link target="_blank" href="https://www.fay.com/it-it/customer-care/orders-and-shipping/?utm_source=newsletter&utm_medium=email&utm_campaign=%3C%=%20message.delivery.operation.label%20%%3E&utm_content=OP-%3C%=%20message.delivery.operation.internalName%20%%3E%3CRI-%3C%=%20recipient.country_recipient.isoCode%20%%3E%3CDC-%3C%=%20message.delivery.deliveryCode%20%%3E%3CDG-%3C%=%20recipient.gender%20%%3E%3CCC-%3C%=%20message.delivery.operation.campaignCalendario%20%%3E%3CCN-%3C%=%20message.delivery.operation.campaignNature%20%%3E%3Ccontent-Spedizioni&userId=%3C%=recipient.crmId%%3E">
                                     <Text className="text-[#162540]" >
                                         SPEDIZIONE GRATUITA
                                     </Text>
                                 </Link>
                             </Column>
-                            <Column>
+                            <Column className="align-top w-1/3">
+                                
                                 <Link target="_blank" href="https://www.fay.com/it-it/customer-care/right-of-withdrawal/?utm_source=newsletter&utm_medium=email&utm_campaign=%3C%=%20message.delivery.operation.label%20%%3E&utm_content=OP-%3C%=%20message.delivery.operation.internalName%20%%3E%3CRI-%3C%=%20recipient.country_recipient.isoCode%20%%3E%3CDC-%3C%=%20message.delivery.deliveryCode%20%%3E%3CDG-%3C%=%20recipient.gender%20%%3E%3CCC-%3C%=%20message.delivery.operation.campaignCalendario%20%%3E%3CCN-%3C%=%20message.delivery.operation.campaignNature%20%%3E%3Ccontent-ResoGratuito&userId=%3C%=recipient.crmId%%3E">
                                     <Img src="https://images.todsgroup.com/FayTemplate/icons-footer/Cambio-Reso-Online.png" alt="Fay" width="40" height="40" className="mx-auto" />
-                                </Link>
-                                <Link target="_blank" href="https://www.fay.com/it-it/customer-care/right-of-withdrawal/?utm_source=newsletter&utm_medium=email&utm_campaign=%3C%=%20message.delivery.operation.label%20%%3E&utm_content=OP-%3C%=%20message.delivery.operation.internalName%20%%3E%3CRI-%3C%=%20recipient.country_recipient.isoCode%20%%3E%3CDC-%3C%=%20message.delivery.deliveryCode%20%%3E%3CDG-%3C%=%20recipient.gender%20%%3E%3CCC-%3C%=%20message.delivery.operation.campaignCalendario%20%%3E%3CCN-%3C%=%20message.delivery.operation.campaignNature%20%%3E%3Ccontent-ResoGratuito&userId=%3C%=recipient.crmId%%3E">
+                                
                                     <Text className="text-[#162540]" >
                                         RESO E CAMBIO ONLINE GRATUITI
                                     </Text>
 
                                 </Link>
+                                
                             </Column>
-                            <Column>
+                            <Column className="align-top w-1/3">
                                 <Link target="_blank" href="https://www.fay.com/it-it/customer-care/payments/?utm_source=newsletter&utm_medium=email&utm_campaign=%3C%=%20message.delivery.operation.label%20%%3E&utm_content=OP-%3C%=%20message.delivery.operation.internalName%20%%3E%3CRI-%3C%=%20recipient.country_recipient.isoCode%20%%3E%3CDC-%3C%=%20message.delivery.deliveryCode%20%%3E%3CDG-%3C%=%20recipient.gender%20%%3E%3CCC-%3C%=%20message.delivery.operation.campaignCalendario%20%%3E%3CCN-%3C%=%20message.delivery.operation.campaignNature%20%%3E%3Ccontent-Pagamentisicuri&userId=%3C%=recipient.crmId%%3E">
                                     <Img src="https://images.todsgroup.com/FayTemplate/icons-footer/Pagamenti-sicuri.png" alt="Fay" width="40" height="40" className="mx-auto" />
-                                </Link>
-                                <Link target="_blank" href="https://www.fay.com/it-it/customer-care/payments/?utm_source=newsletter&utm_medium=email&utm_campaign=%3C%=%20message.delivery.operation.label%20%%3E&utm_content=OP-%3C%=%20message.delivery.operation.internalName%20%%3E%3CRI-%3C%=%20recipient.country_recipient.isoCode%20%%3E%3CDC-%3C%=%20message.delivery.deliveryCode%20%%3E%3CDG-%3C%=%20recipient.gender%20%%3E%3CCC-%3C%=%20message.delivery.operation.campaignCalendario%20%%3E%3CCN-%3C%=%20message.delivery.operation.campaignNature%20%%3E%3Ccontent-Pagamentisicuri&userId=%3C%=recipient.crmId%%3E">
                                     <Text  className="text-[#162540]">
                                         PAGAMENTI SICURI
                                     </Text>
-                                </Link></Column>
+
+                                </Link>
+                                </Column>
+                                
                         </Row>
 
                         <Row className="text-center w-fit mx-auto py-6">
@@ -258,5 +258,4 @@ const RowTemplate = (props) => {
         </Row>
     )
 }
-
 
